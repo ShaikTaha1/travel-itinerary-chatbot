@@ -4,7 +4,7 @@ import weaviate
 import requests
 
 # Set OpenAI API key
-openai.api_key = 'sk-proj-yHyilaR6v3e2IdXlVQybT3BlbkFJE2ry1wxrZacPLnJ5FEDA'  # Replace with your actual OpenAI API key
+openai.api_key = 'API_KEY'  # Replace with your actual OpenAI API key
 
 # Initialize Weaviate client
 client_weaviate = weaviate.Client("http://localhost:8080")
